@@ -9,7 +9,7 @@ import inventoryRouter from "./routes/inventroyRoute.js";
 import branchRouter from "./routes/branchRoute.js";  
 import cookieParser from "cookie-parser";
 import Admin from "./models/admin.js";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 
 dotenv.config();
 
